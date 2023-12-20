@@ -6,5 +6,5 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "abcdcs"
-version = "0.1"
+name = "chromotion"
+version = "0.2.0"
