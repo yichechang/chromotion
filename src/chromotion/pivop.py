@@ -18,7 +18,7 @@ import functools
 import numpy as np
 import xarray as xr
 
-from . import imageop
+from bim_xarray import process as bimproc
 
 # --------------------------------
 # decorators
@@ -128,5 +128,5 @@ def mask_filter(
     *,
     mask: xr.DataArray,
 ) -> xr.Dataset:
-    return imageop.Image.mask_to_keep(piv, mask=mask)
+    return bimproc.mask(piv, mask=mask)
 
