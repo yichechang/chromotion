@@ -8,13 +8,3 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "chromotion"
 version = "0.2.0"
-dependencies = [
-    "numpy",
-    "xarray",
-    "matplotlib",
-    "scikit-image",
-    "scipy",
-    "pandas",
-    "seaborn",
-    "bim-xarray",
-]
