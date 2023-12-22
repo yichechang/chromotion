@@ -1,4 +1,4 @@
-[submodule "bim-xarray"]
-	path = bim-xarray
+[submodule "src/chromotion/bim_xarray"]
+	path = src/chromotion/bim_xarray
 	url = https://github.com/SoftLivingMatter/bim-xarray.git
 	branch = release/chromotion
