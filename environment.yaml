@@ -1,0 +1,17 @@
+channels:
+  - conda-forge
+dependencies:
+  - python >=3.8
+  - numpy
+  - xarray
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pint
+  - bioformats_jar
+  - pip
+  - pip:
+    - aicsimageio
+    - "ome-types>=0.3.4,<0.4.0"
+    - -e .
