@@ -18,7 +18,7 @@ import functools
 import numpy as np
 import xarray as xr
 
-from bim_xarray import process as bimproc
+from bim_xarray.src.bim_xarray import process as bimproc
 
 # --------------------------------
 # decorators
