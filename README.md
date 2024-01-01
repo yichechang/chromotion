@@ -26,7 +26,7 @@ is available as a git submodule.
 - For end-users, just make sure to set up the submodule. Its use is only
 internal to chromotion.
 
-- For developers, you will use it in any modules in `chromotion` as 
+- For developers, you will use it in any modules in `chromotion` as
     ```python
     # Not pretty with all these dir layouts but it's needed
     import .bim_xarray.src.bim_xarray
